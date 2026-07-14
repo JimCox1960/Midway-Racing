@@ -1,0 +1,17 @@
+# Build output — generated from index.html + assets/ via `python3 build.py`.
+# Regenerate locally rather than committing; it's a 70+ MB single file that
+# would bloat repo history on every asset/edit.
+dist/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
