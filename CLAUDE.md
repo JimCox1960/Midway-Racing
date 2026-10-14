@@ -72,9 +72,16 @@ stable's racing silks.
   to be Trendsetter-specific footage (his G3 Lexington Stakes win), not
   generic stable footage. It was mistakenly attached to Street Beast's
   and Monet's Magic's modals too — now only on Trendsetter's, large
-  (matches the width of the OBS workout video above it), labeled
+  (full modal width), labeled
   "Trendsetter's G3 Lexington Stakes Win." Don't re-add it elsewhere
   without confirming which horse the footage actually shows.
+- **Trendsetter OBS workout video in his modal**: removed at the client's
+  request ("for now"). It was ~35 MB and made the `dist/` build ~75 MB.
+  The file is still at `assets/trendsetter-workout.mp4`; to restore it,
+  add back `'<div><h4>OBS Workout</h4><video controls playsinline
+  src="assets/trendsetter-workout.mp4"></video></div>' +` above the
+  YouTube link in the `trendsetter` entry of `HORSES`. Consider
+  compressing it first.
 
 ## Open items / known gaps
 
@@ -84,7 +91,7 @@ stable's racing silks.
 - The `Street_Beast_OBS_workout.png` file that was originally uploaded is
   not a real image (it's a screenshot of an unloaded video player) —
   don't use it. If a real Street Beast workout video shows up, add it
-  the same way Trendsetter's OBS workout video is handled (a `<video>`
+  the same way Trendsetter's OBS workout video was handled (a `<video>`
   tag, not the YouTube pattern).
 - No backend, no CMS — every edit is a direct `index.html` edit. If this
   grows past a handful of horses, consider extracting horse data into a
