@@ -36,10 +36,11 @@ stable's racing silks.
 ## Current page structure
 
 1. **Header/nav** — logo + "MIDWAY RACING / Stable · Midway, Kentucky",
-   sticky, tabs: Stable / About / Aftercare / Contact.
+   sticky, tabs: Stable / About / Contact.
 2. **Hero** — full-bleed static photo (Trendsetter winner's circle) with
    a "MIDWAY RACING" wordmark (green fill, white outline) above a
-   headline and one-line lede. No CTAs, no video embed (a YouTube embed
+   headline ("Purchased, raced and campaigned the right way." — client's
+   exact wording) and one-line lede. No CTAs, no video embed (a YouTube embed
    was tried and removed — see "Things already tried" below).
 3. **Stable** — grid of horse cards (Street Beast, Trendsetter, Monet's
    Magic, Admiral's Order), each with a racing photo, breeding line,
@@ -49,12 +50,8 @@ stable's racing silks.
    (Trendsetter only, see below), and pedigree scan.
 4. **About** — bio copy + a silks image panel ("Stable Colors").
    Heading: "We'll Keep You On Track" (this was changed from "Founded on
-   Farm & Track Experience" — the client may want it changed again once
-   the Aftercare section below reuses similar language; keep an eye out).
-5. **Aftercare** — three numbered commitments (deliberately rewritten to
-   not mirror Little Red Feather's aftercare copy, which the client
-   flagged as too close a paraphrase originally).
-6. **Contact** — Davant Latham's contact card + a generic ownership
+   Farm & Track Experience" — the client may want it changed again).
+5. **Contact** — Davant Latham's contact card + a generic ownership
    inquiry card.
 
 ## Things already tried (don't redo without asking)
@@ -82,6 +79,11 @@ stable's racing silks.
   src="assets/trendsetter-workout.mp4"></video></div>' +` above the
   YouTube link in the `trendsetter` entry of `HORSES`. Consider
   compressing it first.
+
+- **Aftercare section** (three numbered commitments, own nav tab):
+  removed entirely at the client's request, along with its nav tab and
+  CSS. It had been rewritten once already for being too close to Little
+  Red Feather's aftercare copy. Don't re-add without asking.
 
 ## Open items / known gaps
 
